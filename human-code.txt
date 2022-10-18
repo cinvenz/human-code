@@ -4,14 +4,13 @@ SE esiste la lista dei film o serie tv che ci interessano
     - confrontare la lista di film e con la lista dei film e ci interessano
     SE non si ha tempo o si ha troppa stanchezza per guardare tutti i film presenti nella lista
         - distruggere la lista dei film che ci interessano
-    FINE SE    
-    ALTRIMENTI
-    - passare alla lista delle serie tv Netflix
-    SE non si ha tempo o si ha troppa stanchezza per guardare tutte le serie tv presenti nella lista
-        - distruggere la lista delle serie tv che ci interessano
-        - spegnere tv   
+        - passare alla lista delle serie tv Netflix
+        - confrontare la lista delle serie e con la lista delle serie che ci interessano
+        SE non si ha tempo o si ha troppa stanchezza per guardare tutte le serie tv presenti nella lista
+            - distruggere la lista delle serie tv che ci interessano
+            - spegnere tv   
+        FINE SE
     FINE SE
-
 ALTRIMENTI 
     - spegnere tv
 FINE SE
