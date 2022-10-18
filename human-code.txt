@@ -17,7 +17,11 @@ ALTRIMENTI
 FINE SE
 
 selezionare la lista desiderata
- - aprire lista desiderata
- - selezionare il profotto di maggiore interesse
- - iniziare lo streaming
- FINE
+    - aprire lista desiderata
+    - aprire un prodotto qualsiasi
+    Se il prodotto selezionato è quello di maggiore interesse
+        - iniziare lo streaming
+    ALTRIMENTI
+        - selezionare un altro prodotto
+
+FINE
